@@ -27,9 +27,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         btnSetValue.setOnClickListener(this)
 
-        names.add("Adis")
-        names.add("Abid")
-        names.add("Ade")
+        names.add("Mikel")
+        names.add("Ota")
+        names.add("Maja")
         imgPreview = findViewById(R.id.img_preview)
         Glide.with(this).load(R.drawable.fronalpstock_big).into(imgPreview)
     }
